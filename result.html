@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Decoded Signal</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>Decoded Transmission</h1>
+
+<div class="result-box">
+
+<p><b>Signal:</b> {{ signal }}</p>
+
+<p><b>Analysis:</b> {{ result }}</p>
+
+</div>
+
+<a href="/">Decode Another Signal</a>
+
+</body>
+</html>

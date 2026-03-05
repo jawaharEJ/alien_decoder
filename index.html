@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Alien Signal Decoder</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>Alien Signal Decoder</h1>
+<p>Enter a mysterious signal to decode</p>
+
+<form action="/decode" method="POST">
+
+<input type="text" name="signal" placeholder="Enter signal code" required>
+
+<br><br>
+
+<button type="submit">Decode Signal</button>
+
+</form>
+
+</body>
+</html>
